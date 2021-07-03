@@ -1,0 +1,187 @@
+:root
+{
+  --main-font: 'Roboto', sans-serif;
+  --second-font: 'Raleway', sans-serif;
+  --first-font-weight:400;
+  --second-font-weight:500;
+  --third-font-weight:700;
+  --fourth-font-weight:900;
+  --main-color-text:#212121;
+  --secod-color-text: #2196F3;
+  --third-color-text: #757575;
+  --fourth-color-text: #ffffff;
+  --fifth-color-text: rgba(255, 255, 255, 0.6);
+}
+
+body{
+  font-family: var(--main-font);
+  color:var(--main-color-text);
+}
+/*--header--*/
+/*--navigation--*/
+.navigation-logo{
+  font-family: var(--secondary-font);
+  font-weight: var(--third-font-weight);
+  font-size: 26px;
+  line-height: 1,192;
+  color:var(--main-color-text);
+}
+.navigation-list-item{
+  font-weight: var(--second-font-weight);
+  font-size: 14px;
+  line-height: 1,143;
+  color: var(--main-color-text);
+}
+.navigation-list-item:hover,
+.navigation-logo:hover{
+  color: var(--secod-color-text);
+}
+/*--end navigation--*/
+.header-phone,.header-mail{
+  font-weight: var(--second-font-weight);
+  font-size: 14px;
+  line-height: 1,143;
+  color:var(--third-color-text);
+}
+.header-phone:hover,
+.header-mail:hover{
+  color: var(--secod-color-text);
+}
+
+/*--end header--*/
+/*--hero--*/
+.hero-title{
+  font-weight: var(--fourth-font-weight);
+  font-size: 44px;
+  line-height: 1,364;
+  text-align: center;
+  background: #2F303A;
+  color:var(--fourth-color-text);
+}
+.hero-button{
+  font-weight: var(--third-font-weight);
+  font-size: 16px;
+  line-height: 1,875;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  background:var(--fourth-color-text);
+  color:var(--main-color-text);
+}
+.hero-button:hover,
+.hero-button:focus{
+  cursor: pointer;
+  background:var(--secod-color-text);
+  color:var(--fourth-color-text);
+}
+.hero-text-title{
+  font-weight: var(--third-font-weight);
+  font-size: 14px;
+  line-height: 1,143;
+}
+.hero-text-item{
+font-weight: var(--first-font-weight);
+font-size: 14px;
+line-height: 1,714;
+color:var(--third-color-text);
+}
+/*-- end hero--*/
+/*-- what we do--*/
+.text-picture-title{
+  font-weight: var(--third-font-weight);
+  font-size: 36px;
+  line-height: 1,167;
+  text-align: center;
+}
+/*-- end what we do--*/
+/*-- Our team--*/
+.team-title{
+font-weight: var(--third-font-weight);
+font-size: 36px;
+line-height: 1,167;
+text-align: center;
+}
+.text-team-name{
+font-weight: var(--second-font-weight);
+font-size: 16px;
+line-height: 1,1875;
+text-align: center;
+}
+.text-team-name-item{
+font-weight: var(--first-font-weight);
+font-size: 16px;
+line-height: 1,1875;
+text-align: center;
+color:var(--third-color-text);
+}
+/*-- end Our team--*/
+/*-- footer--*/
+.footer-logo{
+  font-family: var(--secondary-font);
+  font-weight: var(--third-font-weight);
+  font-size: 26px;
+  line-height: 1,192;
+  color:var(--fourth-color-text);
+}
+.footer,
+.footer a{
+  font-style: normal;
+  background: #2F303A;
+}
+.footer a:hover{
+  color: var(--secod-color-text);
+}
+.footer a:visited{
+  color:none
+}
+.footer-font-map{
+  font-weight: var(--first-font-weight);
+  font-size: 14px;
+  line-height: 1,714;
+  color:var(--fourth-color-text);
+}
+.footer-font-mail{
+font-weight: var(--first-font-weight);
+font-size: 14px;
+line-height: 1,714;
+color: var(--fifth-color-text);
+}
+.footer-font-phone{
+font-weight: var(--first-font-weight);
+font-size: 14px;
+line-height: 1,714;
+color:var(--fifth-color-text);
+}
+/*-- end footer--*/
+/*portfolio*/
+/*--page filter--*/
+.button-selection{
+  font-weight:var(--second-font-weight);
+  font-size: 16px;
+  line-height: 1,625;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  background:var(--fourth-color-text);
+  color:var(--main-color-text);
+}
+.button-selection:hover,
+.button-selection:focus{
+  cursor: pointer;
+  background:var(--secod-color-text);
+  color:var(--fourth-color-text);
+}
+/*--end page filter--*/
+/*--what we do--*/
+.activities-title{
+font-weight: var(--third-font-weight);
+font-size: 18px;
+line-height: 2;
+}
+.activities-services{
+font-weight:var(--first-font-weight);
+font-size: 16px;
+line-height: 1,875;
+color:var(--third-color-text);
+}
+/*--end what we do--*/
